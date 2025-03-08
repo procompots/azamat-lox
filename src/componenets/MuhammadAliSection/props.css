@@ -1,0 +1,35 @@
+.cardus {
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: #101010;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.cardus h4 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin: 24px 285px 50px 27px;
+}
+
+.cardus p {
+    width: 315px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin: 0px 58px 80px 27px;
+}
+
+.cardus img {
+    border-radius: 10px 10px 0px 0px;
+}
+.cardus:hover{
+    background-color: #F57520;
+    color: #101010;
+}
