@@ -1,7 +1,6 @@
 import React from "react";
 import "./input.css";
-import sariqBola from  '../AbdullohInput/sariq bola.png'
-
+import sariqBola from  "../AbdullohInput/sariq bola.png"
 function Input() {
   return (
     <>
@@ -18,7 +17,7 @@ function Input() {
               <input type="text" placeholder="Компания" />
             </div>
             <div className="inp3">
-              <textarea cols="30" rows="10" placeholder="Сообщение"></textarea>
+              <textarea cols="50" rows="10" placeholder="Сообщение"></textarea>
             </div>
             <div className="inp4">
               <button>Задать вопрос</button>
