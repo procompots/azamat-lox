@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./componenets/abdulazizHeader/header";
 import Input from "./componenets/AbdullohInput/input";
 import Props from "./componenets/MuhammadAliSection/props";
 import img1 from ".../../../public/images/img1.png"
@@ -10,7 +11,9 @@ import img6 from ".../../../public/images/img6.png"
 function App() {
   return (
     <>
-      <header></header>
+      <header>
+        <Header/>
+      </header>
       <main>
         <section className="Props-sect">
         <h2>Трасса</h2>
