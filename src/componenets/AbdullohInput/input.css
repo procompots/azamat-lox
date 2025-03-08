@@ -28,7 +28,7 @@
 
 .inp1,
 .inp2 {
-  gap: 16px;
+  gap: 40px;
   display: flex;
   margin-top: 16px;
 }
@@ -49,6 +49,8 @@ textarea {
   letter-spacing: 0%;
   color: #b3b3b3;
   resize: none;
+  width: 466px;
+  height: 154px;
 }
 
 .inp-left button {
