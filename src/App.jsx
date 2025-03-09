@@ -8,6 +8,7 @@ import img3 from ".../../../public/images/img3.png"
 import img4 from ".../../../public/images/img4.png"
 import img5 from ".../../../public/images/img5.png"
 import img6 from ".../../../public/images/img6.png"
+import Footer from "./componenets/AzamatFooter/footer";
 function App() {
   return (
     <>
@@ -56,7 +57,9 @@ function App() {
         </section>
 
       </main>
-      <footer></footer>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
