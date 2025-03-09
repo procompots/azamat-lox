@@ -26,6 +26,11 @@
 .icons {
   display: flex;
   gap: 25px;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 30px;
 }
 
 .Mdoutlinesigment {
@@ -33,7 +38,7 @@
 }
 
 .header2 {
-  padding: 80px 935px 236px 320px;
+  padding: 80px 935px 236px 170px;
 }
 
 .h11 {
@@ -44,8 +49,7 @@
 }
 
 .pca {
-  width: 645;
-  height: 87;
+  width: 645px;
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
